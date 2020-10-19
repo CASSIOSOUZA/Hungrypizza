@@ -1,5 +1,5 @@
 # HungryPizza
-[![Linkedin Curriculo](https://www.linkedin.com/in/cassioguilhermy/)](https://drive.google.com/file/d/1_2ua5M043qV1z5LOwkk37pwie-bAxbJc/view?usp=sharing)
+[![Linkedin Curriculo](https://media-exp1.licdn.com/dms/image/C5103AQGwXd9y90NIHw/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=wHp5bbA1Lkg0R47ITLflhQvpDLRlvsTI5EqRls362kI)](https://www.linkedin.com/in/cassioguilhermy/)
 
 # Proposta do Projeto
 
