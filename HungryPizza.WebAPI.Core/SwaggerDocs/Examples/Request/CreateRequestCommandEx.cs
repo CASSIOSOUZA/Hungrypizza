@@ -16,7 +16,6 @@ namespace HungryPizza.WebAPI.Core.SwaggerDocs.Examples.Request
             {
                 new RequestPizzaCommandVM { IdPizzaFirstHalf = 1, IdPizzaSecondHalf = 1, Quantity = 1 },
                 new RequestPizzaCommandVM { IdPizzaFirstHalf = 2, IdPizzaSecondHalf = 3, Quantity = 1 }
-              
             };
             return new CreateRequestCommandVM
             {
