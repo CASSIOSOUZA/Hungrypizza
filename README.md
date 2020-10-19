@@ -1,4 +1,5 @@
 # HungryPizza
+[![Linkedin Curriculo](https://www.linkedin.com/in/cassioguilhermy/)](https://drive.google.com/file/d/1_2ua5M043qV1z5LOwkk37pwie-bAxbJc/view?usp=sharing)
 
 # Proposta do Projeto
 
@@ -24,11 +25,11 @@ Seu desafio é criar uma API para receber os pedidos feitos a partir do site da 
 O front-end será desenvolvido por outro time, por isso a criação de testes de unidade e de integração são imprescindíveis. Fique a vontade para testar os cenários que achar mais relevantes.
 
 Fique atento as regras:
-• A aplicação deve ser construida com C#
-• A api deve rodar em ambiente Linux, por isso é necessário que seja construida com .NET Core
-• A definição do banco de dados utilizado fica a critérido do candidato
-• Esperamos que você resolva o teste em até 2 dias a contar da data combinada para início. Caso você precise de mais tempo, por favor, avise-nos com até três dias de antecedência a contar do recebimento.
-• Ao final do prazo limite ou quando você terminar, o que acontecer primeiro, você deve publicar o código desenvolvido em um repositório aberto no github e, depois, responder a este formulário com o link para o repositório.
+- A aplicação deve ser construida com C#
+- A api deve rodar em ambiente Linux, por isso é necessário que seja construida com .NET Core
+- A definição do banco de dados utilizado fica a critérido do candidato
+- Esperamos que você resolva o teste em até 2 dias a contar da data combinada para início. Caso você precise de mais tempo, por favor, avise-nos com até três dias de antecedência a contar do recebimento.
+- Ao final do prazo limite ou quando você terminar, o que acontecer primeiro, você deve publicar o código desenvolvido em um repositório aberto no github e, depois, responder a este formulário com o link para o repositório.
 
 ## PROJETOS DA SOLUÇÃO
 
@@ -67,11 +68,11 @@ A solução requer conexão com o banco de dados MySQL para ser testada pelo Swa
 A pasta "SCRIPTS_BANCO" contém o arquivo HungryPizza.sql e o diagrama de tabelas. É necessário executar o script no MySQL Workbench ou qualquer outro gerenciador de banco de dados MySQL para contruir o schema, cadastrar as pizzas e poder realizar os testes por completo.
 A string de conexão deve ser fornecida no arquivo _appsettings.json_ do projeto **HungryPizza.WebAPI.Core**.
 
-##CONEXÃO COM O BANCO
+## CONEXÃO COM O BANCO
 
 "ConnectionStrings": {
     "DefaultConnection": "server=###;uid=###;port=###;pwd=###;database=hungrypizza;"
-},
+}
 
 - Todos os métodos possuem exemplo de entrada.  
 - Para cadastrar um cliente, utilize o controller _Customer_.  
