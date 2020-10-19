@@ -1,5 +1,5 @@
 # HungryPizza
-[![Linkedin Curriculo](https://media-exp1.licdn.com/dms/image/C5103AQGwXd9y90NIHw/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=wHp5bbA1Lkg0R47ITLflhQvpDLRlvsTI5EqRls362kI)](https://www.linkedin.com/in/cassioguilhermy/)
+[![Linkedin Curriculo](https://cariadmarketing.com/wp-content/uploads/2013/11/default-share.png)](https://www.linkedin.com/in/cassioguilhermy/)
 
 # Proposta do Projeto
 
