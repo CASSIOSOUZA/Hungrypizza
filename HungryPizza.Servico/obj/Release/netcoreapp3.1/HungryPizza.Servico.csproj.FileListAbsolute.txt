@@ -1,0 +1,11 @@
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\bin\Release\netcoreapp3.1\HungryPizza.Servico.deps.json
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\bin\Release\netcoreapp3.1\HungryPizza.Servico.dll
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\bin\Release\netcoreapp3.1\HungryPizza.Servico.pdb
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\bin\Release\netcoreapp3.1\HungryPizza.Compartilhado.dll
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\bin\Release\netcoreapp3.1\HungryPizza.Compartilhado.pdb
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\obj\Release\netcoreapp3.1\HungryPizza.Servico.csprojAssemblyReference.cache
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\obj\Release\netcoreapp3.1\HungryPizza.Servico.AssemblyInfoInputs.cache
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\obj\Release\netcoreapp3.1\HungryPizza.Servico.AssemblyInfo.cs
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\obj\Release\netcoreapp3.1\HungryPizza.Servico.csproj.CopyComplete
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\obj\Release\netcoreapp3.1\HungryPizza.Servico.dll
+D:\Teste LogStore\Solucao2\HungryPizza-master\HungryPizza.Servico\obj\Release\netcoreapp3.1\HungryPizza.Servico.pdb

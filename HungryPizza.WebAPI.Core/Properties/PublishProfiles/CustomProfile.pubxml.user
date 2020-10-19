@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALa9OY/IIEkK1q16N/vVfqwAAAAACAAAAAAAQZgAAAAEAACAAAACCn3ss9lzIGegBO0s6gAiJ8sqxpplF+yQJ5kMpuWZA9AAAAAAOgAAAAAIAACAAAADNTNBLo8HoG2s7WqloDLRyXT57SiHo/pev2/Tl1i5KMSAAAABhF6/CyxDyh5ZNg7IXCuYnlTs4sPVqFM5iXkdFLmTlbEAAAAB2X08heiW08s0PeqNeG471bDpI99vfzoLhAVQYz+K5kq66H10o3/+A6qt0gg50SjNMERZSqiAxiC86rPWEi116</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.socialfour.com.br</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/18/2020 01:26:15</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/18/2020 01:26:13</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>10/18/2020 06:07:27</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>07/01/2020 16:00:54</publishTime>
+    </File>
+    <File Include="FluentValidation.dll">
+      <publishTime>08/12/2020 16:05:58</publishTime>
+    </File>
+    <File Include="HungryPizza.Compartilhado.dll">
+      <publishTime>10/18/2020 06:30:58</publishTime>
+    </File>
+    <File Include="HungryPizza.Compartilhado.pdb">
+      <publishTime>10/18/2020 06:30:58</publishTime>
+    </File>
+    <File Include="HungryPizza.Repositorio.dll">
+      <publishTime>10/18/2020 06:31:00</publishTime>
+    </File>
+    <File Include="HungryPizza.Repositorio.pdb">
+      <publishTime>10/18/2020 06:31:00</publishTime>
+    </File>
+    <File Include="HungryPizza.Servico.dll">
+      <publishTime>10/18/2020 06:30:59</publishTime>
+    </File>
+    <File Include="HungryPizza.Servico.pdb">
+      <publishTime>10/18/2020 06:30:59</publishTime>
+    </File>
+    <File Include="HungryPizza.WebAPI.Core.deps.json">
+      <publishTime>10/18/2020 06:45:05</publishTime>
+    </File>
+    <File Include="HungryPizza.WebAPI.Core.dll">
+      <publishTime>10/18/2020 06:45:05</publishTime>
+    </File>
+    <File Include="HungryPizza.WebAPI.Core.exe">
+      <publishTime>10/18/2020 06:45:05</publishTime>
+    </File>
+    <File Include="HungryPizza.WebAPI.Core.pdb">
+      <publishTime>10/18/2020 06:45:05</publishTime>
+    </File>
+    <File Include="HungryPizza.WebAPI.Core.runtimeconfig.json">
+      <publishTime>10/18/2020 06:31:01</publishTime>
+    </File>
+    <File Include="MediatR.dll">
+      <publishTime>07/27/2020 17:48:46</publishTime>
+    </File>
+    <File Include="MediatR.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>07/27/2020 18:36:00</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>04/14/2020 22:39:12</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/15/2019 08:38:50</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>02/21/2020 20:38:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>07/22/2020 02:48:28</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>07/22/2020 02:48:46</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>07/22/2020 00:41:22</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>07/22/2020 00:42:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>07/22/2020 00:41:40</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>07/22/2020 00:42:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.dll">
+      <publishTime>07/22/2020 00:42:58</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>07/22/2020 00:42:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>07/22/2020 00:41:46</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>02/21/2020 20:38:48</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>07/22/2020 00:42:32</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>07/22/2020 00:43:04</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>07/22/2020 00:41:46</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.PlatformAbstractions.dll">
+      <publishTime>02/21/2020 20:38:46</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>07/22/2020 00:42:02</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 20:14:12</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>11/05/2019 12:58:26</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 00:56:44</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>07/22/2020 15:48:32</publishTime>
+    </File>
+    <File Include="Pomelo.JsonObject.dll">
+      <publishTime>11/20/2019 11:56:36</publishTime>
+    </File>
+    <File Include="Scrutor.dll">
+      <publishTime>08/30/2018 11:09:24</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Annotations.dll">
+      <publishTime>01/14/2020 13:16:34</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Filters.dll">
+      <publishTime>10/16/2020 04:59:08</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>09/23/2020 12:47:20</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>09/23/2020 12:47:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>09/23/2020 12:47:24</publishTime>
+    </File>
+    <File Include="System.Collections.Immutable.dll">
+      <publishTime>04/14/2020 22:38:40</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>04/14/2020 22:48:06</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/18/2020 06:45:13</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>server=127.0.0.1%3buid=root%3bport=3306%3bpwd=2068%3bdatabase=hungrypizza%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

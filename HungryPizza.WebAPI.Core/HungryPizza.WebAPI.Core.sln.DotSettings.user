@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=572caf4f_002D9ff3_002D4ad7_002Da460_002D3357c45d0af7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SuccessGetPizzas" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::8DBE5F80-D835-48C9-96C7-779B688526AF::.NETCoreApp,Version=v3.1::HungryPizza.Tests.Controllers.PizzaControllerTests.SuccessGetPizzas&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8DBE5F80-D835-48C9-96C7-779B688526AF::.NETCoreApp,Version=v3.1::HungryPizza.Tests.Commands.Request.CreateRequestCommandTests.CreateRequestPizzasCalculatingValuesPizza&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8DBE5F80-D835-48C9-96C7-779B688526AF::.NETCoreApp,Version=v3.1::HungryPizza.Tests.Controllers.RequestControllerTests.SuccessGetRequests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8DBE5F80-D835-48C9-96C7-779B688526AF::.NETCoreApp,Version=v3.1::HungryPizza.Tests.Controllers.RequestControllerTests.SuccessPizzasCalculatingValuesPizza&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

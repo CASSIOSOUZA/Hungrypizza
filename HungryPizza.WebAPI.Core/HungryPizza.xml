@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HungryPizza.WebAPI.Core</name>
+    </assembly>
+    <members>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.BaseController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.BaseController"/> class.
+            </summary>
+            <param name="mediatR">The mediat r.</param>
+            <param name="mapper">The mapper.</param>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.BaseController.Send``2(``0)">
+            <summary>
+            Sends the specified vm.
+            </summary>
+            <typeparam name="TViewModel">The type of the view model.</typeparam>
+            <typeparam name="TCommandQuery">The type of the command query.</typeparam>
+            <param name="vm">The vm.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.BaseController.Send``1(``0)">
+            <summary>
+            Sends the specified request.
+            </summary>
+            <typeparam name="ICommandQuery">The type of the command query.</typeparam>
+            <param name="request">The request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.CustomerController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.CustomerController"/> class.
+            </summary>
+            <param name="mediatR">The mediat r.</param>
+            <param name="mapper">The mapper.</param>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.CustomerController.CreateCustomer(HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.CreateCustomerCommandVM)">
+            <summary>
+            Creates the customer.
+            </summary>
+            <param name="vm">The vm.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.CustomerController.UpdateCustomer(HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.UpdateCustomerCommandVM)">
+            <summary>
+            Updates the customer.
+            </summary>
+            <param name="vm">The vm.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.PizzaController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.PizzaController"/> class.
+            </summary>
+            <param name="m">The m.</param>
+            <param name="mp">The mp.</param>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.PizzaController.GetPizza(HungryPizza.WebAPI.Core.ViewModels.Queries.Pizza.PizzaGetQueryVM)">
+            <summary>
+            Gets the pizza.
+            </summary>
+            <param name="vm">The vm.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.RequestController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.RequestController"/> class.
+            </summary>
+            <param name="m">The m.</param>
+            <param name="mp">The mp.</param>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.RequestController.CreateRequest(HungryPizza.WebAPI.Core.ViewModels.Commands.Request.CreateRequestCommandVM)">
+            <summary>
+            Creates the request.
+            </summary>
+            <param name="vm">The vm.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.RequestController.GetRequest(HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestGetQueryVM)">
+            <summary>
+            Gets the request.
+            </summary>
+            <param name="vm">The vm.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.RequestController.GetHistory(System.Int32)">
+            <summary>
+            Gets the history.
+            </summary>
+            <param name="idCustomer">The identifier customer.</param>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.UserController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.UserController"/> class.
+            </summary>
+            <param name="mediatR">The mediat r.</param>
+            <param name="mapper">The mapper.</param>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Controllers.UserController.AuthenticateUser(HungryPizza.WebAPI.Core.ViewModels.Commands.User.AuthenticateUserCommandVM)">
+            <summary>
+            Authenticates the user.
+            </summary>
+            <param name="vm">The vm.</param>
+            <returns>Object AuthenticateUserCommandVM. </returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Mappers.ViewModelToCommandMappingProfile.#ctor(HungryPizza.Compartilhado.Models.AppSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Mappers.ViewModelToCommandMappingProfile"/> class.
+            </summary>
+            <param name="appSettings">The application settings.</param>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.Mappers.ViewModelToQueryMappingProfile.#ctor(HungryPizza.Compartilhado.Models.AppSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Mappers.ViewModelToQueryMappingProfile"/> class.
+            </summary>
+            <param name="appSettings">The application settings.</param>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.SwaggerDocs.Examples.Customer.CreateCustomerCommandEx.GetExamples">
+            <summary>
+            Gets the examples.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.SwaggerDocs.Examples.Customer.UpdateCustomerCommandEx.GetExamples">
+            <summary>
+            Gets the examples.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.SwaggerDocs.Examples.Pizza.PizzaGetQueryEx.GetExamples">
+            <summary>
+            Gets the examples.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.SwaggerDocs.Examples.Request.CreateRequestCommandEx.GetExamples">
+            <summary>
+            Gets the examples.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.SwaggerDocs.Examples.Request.RequestGetQueryEx.GetExamples">
+            <summary>
+            Gets the examples.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HungryPizza.WebAPI.Core.SwaggerDocs.Examples.User.AuthenticateUserCommandEx">
+            <summary>
+            Metodo AuthenticateUserCommandEx
+            </summary>
+        </member>
+        <member name="M:HungryPizza.WebAPI.Core.SwaggerDocs.Examples.User.AuthenticateUserCommandEx.GetExamples">
+            <summary>
+            Gets the examples.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.CreateCustomerCommandVM.Name">
+            <summary>
+            Customer name
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.CreateCustomerCommandVM.Email">
+            <summary>
+            User email
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.CreateCustomerCommandVM.Password">
+            <summary>
+            User password
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.CreateCustomerCommandVM.Address">
+            <summary>
+            Customer address
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.UpdateCustomerCommandVM.IdCustomer">
+            <summary>
+            Customer Id
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.UpdateCustomerCommandVM.Name">
+            <summary>
+            Customer name
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.UpdateCustomerCommandVM.Email">
+            <summary>
+            Customer email
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.UpdateCustomerCommandVM.Password">
+            <summary>
+            Customer password
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.UpdateCustomerCommandVM.Address">
+            <summary>
+            Customer address
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Customer.UpdateCustomerCommandVM.Active">
+            <summary>
+            Is customer active?
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Request.CreateRequestCommandVM.IdCustomer">
+            <summary>
+            Customer Id
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Request.CreateRequestCommandVM.Address">
+            <summary>
+            Customer Address
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Request.CreateRequestCommandVM.Pizzas">
+            <summary>
+            List of pizzas
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Request.RequestPizzaCommandVM.IdPizzaFirstHalf">
+            <summary>
+            First half pizza Id
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Request.RequestPizzaCommandVM.IdPizzaSecondHalf">
+            <summary>
+            Second half pizza Id
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.Request.RequestPizzaCommandVM.Quantity">
+            <summary>
+            Full pizza quantity
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.User.AuthenticateUserCommandVM.Email">
+            <summary>
+            User email
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Commands.User.AuthenticateUserCommandVM.Password">
+            <summary>
+            User password
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Pizza.PizzaGetQueryVM.IdPizza">
+            <summary>
+            Pizza Id
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Pizza.PizzaGetQueryVM.Name">
+            <summary>
+            Pizza name
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Pizza.PizzaGetQueryVM.Price">
+            <summary>
+            Pizza price
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestGetQueryVM.CreatedAt">
+            <summary>
+            Date and time of creation
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestGetQueryVM.Uid">
+            <summary>
+            Unique identifier
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestGetQueryVM.Quantity">
+            <summary>
+            Quantity of pizzas
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestGetQueryVM.Total">
+            <summary>
+            Total to pay
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestGetQueryVM.IdCustomer">
+            <summary>
+            Customer Id
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestGetQueryVM.Address">
+            <summary>
+            Customer address
+            </summary>
+        </member>
+        <member name="P:HungryPizza.WebAPI.Core.ViewModels.Queries.Request.RequestHistoryQueryVM.IdCustomer">
+            <summary>
+            Customer Id
+            </summary>
+        </member>
+    </members>
+</doc>
