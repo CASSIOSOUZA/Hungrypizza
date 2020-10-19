@@ -6,7 +6,7 @@
     <members>
         <member name="M:HungryPizza.WebAPI.Core.Controllers.BaseController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
             <summary>
-            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.BaseController"/> class.
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.BaseController" /> class.
             </summary>
             <param name="mediatR">The mediat r.</param>
             <param name="mapper">The mapper.</param>
@@ -30,7 +30,7 @@
         </member>
         <member name="M:HungryPizza.WebAPI.Core.Controllers.CustomerController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
             <summary>
-            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.CustomerController"/> class.
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.CustomerController" /> class.
             </summary>
             <param name="mediatR">The mediat r.</param>
             <param name="mapper">The mapper.</param>
@@ -51,7 +51,7 @@
         </member>
         <member name="M:HungryPizza.WebAPI.Core.Controllers.PizzaController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
             <summary>
-            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.PizzaController"/> class.
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.PizzaController" /> class.
             </summary>
             <param name="m">The m.</param>
             <param name="mp">The mp.</param>
@@ -65,7 +65,7 @@
         </member>
         <member name="M:HungryPizza.WebAPI.Core.Controllers.RequestController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
             <summary>
-            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.RequestController"/> class.
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.RequestController" /> class.
             </summary>
             <param name="m">The m.</param>
             <param name="mp">The mp.</param>
@@ -93,7 +93,7 @@
         </member>
         <member name="M:HungryPizza.WebAPI.Core.Controllers.UserController.#ctor(MediatR.IMediator,AutoMapper.IMapper)">
             <summary>
-            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.UserController"/> class.
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Controllers.UserController" /> class.
             </summary>
             <param name="mediatR">The mediat r.</param>
             <param name="mapper">The mapper.</param>
@@ -107,13 +107,13 @@
         </member>
         <member name="M:HungryPizza.WebAPI.Core.Mappers.ViewModelToCommandMappingProfile.#ctor(HungryPizza.Compartilhado.Models.AppSettings)">
             <summary>
-            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Mappers.ViewModelToCommandMappingProfile"/> class.
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Mappers.ViewModelToCommandMappingProfile" /> class.
             </summary>
             <param name="appSettings">The application settings.</param>
         </member>
         <member name="M:HungryPizza.WebAPI.Core.Mappers.ViewModelToQueryMappingProfile.#ctor(HungryPizza.Compartilhado.Models.AppSettings)">
             <summary>
-            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Mappers.ViewModelToQueryMappingProfile"/> class.
+            Initializes a new instance of the <see cref="T:HungryPizza.WebAPI.Core.Mappers.ViewModelToQueryMappingProfile" /> class.
             </summary>
             <param name="appSettings">The application settings.</param>
         </member>
