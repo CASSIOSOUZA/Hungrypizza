@@ -78,3 +78,4 @@ A string de conexão deve ser fornecida no arquivo _appsettings.json_ do projeto
 - Para cadastrar um cliente, utilize o controller _Customer_.  
 - O histórico de pedidos requer um cliente cadastrado e é acessado através da rota _/Request/{idCustomer}_ do controller _Request_.  
 - O método de autenticação de usuário no controller _User_ é apenas um recurso a mais, não necessário para o funcionamento do sistema.
+

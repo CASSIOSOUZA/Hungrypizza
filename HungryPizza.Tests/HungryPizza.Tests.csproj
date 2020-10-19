@@ -19,7 +19,6 @@
     <ProjectReference Include="..\HungryPizza.Compartilhado\HungryPizza.Compartilhado.csproj" />
     <ProjectReference Include="..\HungryPizza.Servico\HungryPizza.Servico.csproj" />
     <ProjectReference Include="..\HungryPizza.WebAPI.Core\HungryPizza.WebAPI.Core.csproj" />
-    <ProjectReference Include="..\HungryPizza.WebAPI\HungryPizza.WebAPI.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
