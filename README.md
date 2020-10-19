@@ -1,5 +1,5 @@
 # HungryPizza
-[![Linkedin Curriculo](https://cariadmarketing.com/wp-content/uploads/2013/11/default-share.png)](https://www.linkedin.com/in/cassioguilhermy/)
+[![Linkedin Curriculo](https://image.freepik.com/vetores-gratis/pizza-logo-design-template_15146-191.jpg)](https://www.linkedin.com/in/cassioguilhermy/)
 
 # Proposta do Projeto
 
